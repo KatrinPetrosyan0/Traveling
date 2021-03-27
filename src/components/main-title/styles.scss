@@ -1,0 +1,138 @@
+  /* 14. section animation */
+  #homeOT {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    z-index: 0;
+}
+div{
+  display: block;
+}
+.upper-page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+.hero-fullscreen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+.center-container-home {
+  position: absolute;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+}
+.center-block-home{
+  margin-top:400px;
+}
+.intro-wrapper {
+  margin-top: 17px;
+}
+.container-time {
+  white-space: nowrap;
+  background: none;
+  height: 40px;
+}
+.title-intro-time {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 1px 1px 2px #111;
+  margin: 18px auto 32px 1px;
+  padding: 0;
+  color: white;
+}
+.container-time {
+  white-space: nowrap;
+  background: none;
+  height: 40px;
+}
+.time-column-3 {
+  white-space: normal;
+  background: none;
+  width: 50%;
+  display: inline-block;
+}
+h1 {
+  display: block;
+  // font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  // font-weight: bold;
+}
+    
+    @media only screen and (max-width: 880px) {
+      .center-container {
+        position: relative;
+        display: table;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+      }
+    }
+    
+    .hero-fullscreen {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      overflow: hidden;
+      z-index: 0;
+  }
+  .hero-fullscreen-FIX {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-bg{
+  -webkit-transition: -webkit-transform 3s ease;
+  -moz-transition: -moz-transform 3s ease-out;
+  -ms-transition: -ms-transform 3s ease-out;
+  -o-transition: -o-transform 3s ease-out;
+  transition: transform 3s ease;
+}
+.hero-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-img-SINGLE {
+  background-image: url(../../assets/Back1.jpg);
+  // filter: brightness(1);
+}
+h3{
+  color:white;
+  text-align: right;
+}
